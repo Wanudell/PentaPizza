@@ -17,6 +17,12 @@ namespace Penta.API.Controllers
         }
 
         [HttpGet]
+        public IActionResult GetAllOrders()
+        {
+            return Ok(dbContext.Orders.ToList());
+        }
+
+        [HttpGet]
         public IActionResult GetById(int id)
         {
             //var pizza = dbContext.Orders.FirstOrDefault(x => x.OrderId == id);
