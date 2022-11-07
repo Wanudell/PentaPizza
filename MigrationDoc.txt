@@ -1,0 +1,3 @@
+Add-Migration Initial -P PentaPizza.Data -C PentaPizzaDbContext -S Penta.API
+---------------------------------------------------------------------
+Update-Database -P PentaPizza.Data -C PentaPizzaDbContext -S Penta.API

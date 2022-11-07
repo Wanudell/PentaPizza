@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{421B25EA-4C16-4FC0-A68E-4C1522C555A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{BB39D0B1-9F27-416F-96A8-49E1DCBBC074}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{3CA85EC2-B184-42D9-B431-98E040528EC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PentaPizza.Common", "common\PentaPizza.Common\PentaPizza.Common.csproj", "{C5D5FF61-9B3E-4DDF-B3AE-8A091A1E768D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PentaPizza.Data", "data\PentaPizza.Data\PentaPizza.Data.csproj", "{F693B358-A134-4D05-8215-B3ED54E846F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penta.API", "api\Penta.API\Penta.API.csproj", "{B36213D2-FAF3-48A7-A88C-C85C152375E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_docs", "_docs", "{16861804-3F64-4429-98CB-AD034292D419}"
+	ProjectSection(SolutionItems) = preProject
+		MigrationDoc.txt = MigrationDoc.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PentaPizza.Data.Seed", "data\PentaPizza.Data.Seed\PentaPizza.Data.Seed.csproj", "{0C43ED38-AC54-44AC-B094-75ABCD2D5C08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5D5FF61-9B3E-4DDF-B3AE-8A091A1E768D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5D5FF61-9B3E-4DDF-B3AE-8A091A1E768D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5D5FF61-9B3E-4DDF-B3AE-8A091A1E768D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5D5FF61-9B3E-4DDF-B3AE-8A091A1E768D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F693B358-A134-4D05-8215-B3ED54E846F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F693B358-A134-4D05-8215-B3ED54E846F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F693B358-A134-4D05-8215-B3ED54E846F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F693B358-A134-4D05-8215-B3ED54E846F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B36213D2-FAF3-48A7-A88C-C85C152375E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B36213D2-FAF3-48A7-A88C-C85C152375E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B36213D2-FAF3-48A7-A88C-C85C152375E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B36213D2-FAF3-48A7-A88C-C85C152375E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C43ED38-AC54-44AC-B094-75ABCD2D5C08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C43ED38-AC54-44AC-B094-75ABCD2D5C08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C43ED38-AC54-44AC-B094-75ABCD2D5C08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C43ED38-AC54-44AC-B094-75ABCD2D5C08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C5D5FF61-9B3E-4DDF-B3AE-8A091A1E768D} = {3CA85EC2-B184-42D9-B431-98E040528EC4}
+		{F693B358-A134-4D05-8215-B3ED54E846F1} = {BB39D0B1-9F27-416F-96A8-49E1DCBBC074}
+		{B36213D2-FAF3-48A7-A88C-C85C152375E7} = {421B25EA-4C16-4FC0-A68E-4C1522C555A6}
+		{0C43ED38-AC54-44AC-B094-75ABCD2D5C08} = {BB39D0B1-9F27-416F-96A8-49E1DCBBC074}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {699EFDCB-CC35-45B6-8580-DA1FDEDBA9D7}
+	EndGlobalSection
+EndGlobal
